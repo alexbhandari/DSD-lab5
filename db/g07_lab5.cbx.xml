@@ -1,7 +1,7 @@
 <?xml version="1.0" ?>
 <LOG_ROOT>
 	<PROJECT NAME="g07_lab5">
-		<CBX_INST_ENTRY INSTANCE_NAME="|g07_lab5|G07_Lab3:stroke_stats|g07_SECONDS_TIMER:pulser|LPM_COUNTER:counter" CBX_FILE_NAME="cntr_agl.tdf"/>
-		<CBX_INST_ENTRY INSTANCE_NAME="|g07_lab5|g07_speed_calories:power_stats|LPM_ROM:crc_table|altrom:srom|altsyncram:rom_block" CBX_FILE_NAME="altsyncram_m701.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|g07_lab5|G07_Lab3:stroke_stats|g07_SECONDS_TIMER:pulser|LPM_COUNTER:counter" CBX_FILE_NAME="cntr_8fl.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|g07_lab5|g07_speed_calories:power_stats|LPM_ROM:crc_table|altrom:srom|altsyncram:rom_block" CBX_FILE_NAME="altsyncram_k601.tdf"/>
 	</PROJECT>
 </LOG_ROOT>
