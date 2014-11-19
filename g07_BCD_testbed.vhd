@@ -4,7 +4,7 @@ use ieee.numeric_std.all;
 
 entity g07_BCD_testbed is 
 	port ( clk, start, reset : in std_logic;
-		   BIN : in std_logic_vector(8 downto 0);
+		   BIN : in std_logic_vector(13 downto 0);
 		   ready : out std_logic;
 		   out4, out3, out2, out1 : out std_logic_vector(6 downto 0));
 end g07_BCD_testbed;
@@ -30,7 +30,7 @@ architecture behv of g07_BCD_testbed is
 	begin
 
 	
-	binfull <= "0"&(BIN)&"0000";
+	--binfull <= "0"&(BIN)&"0000";
 	bun <= unsigned(binfull);
 
 	converter : g07_serial_binary_to_bcd port map(clk => clk,
